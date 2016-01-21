@@ -1,10 +1,7 @@
 'use strict';
 
-var str = `http://egghead.io
-not a web address
-http://
-https://egghead.io more`;
-var regex = /https?:\/\/.+/g
+var str = `cat mat bat Hat ?at 0at`;
+var regex = /[a-zA-Z0-9?]at/g
 
 /**
  * @param  String str
